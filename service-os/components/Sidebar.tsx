@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   LayoutDashboard, Users, Kanban, Briefcase, DollarSign,
-  BarChart2, Trophy, BookOpen, Settings, Zap, Timer
+  BarChart2, Trophy, BookOpen, Settings, Zap, Timer, Map
 } from "lucide-react";
 
 const nav = [
@@ -16,6 +16,7 @@ const nav = [
   { href: "/productivity", label: "Productivity", icon: BarChart2 },
   { href: "/accountability", label: "Accountability", icon: Trophy },
   { href: "/templates", label: "Resources", icon: BookOpen },
+  { href: "/map", label: "Map View", icon: Map },
 ];
 
 export default function Sidebar() {
